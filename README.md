@@ -16,3 +16,7 @@ Did ques of Count Negative Numbers in a Sorted Matrix(LC - 1351)
 ## 18-01-2026
 
 Did ques of Symmetric Tree(LC-101)
+
+## 25-01-2026
+
+Did ques of Minimum Difference program(LC-1984)
