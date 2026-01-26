@@ -20,3 +20,7 @@ Did ques of Symmetric Tree(LC-101)
 ## 25-01-2026
 
 Did ques of Minimum Difference program(LC-1984)
+
+## 26-01-2025
+
+Did ques of Minimum Absolute Difference(LC-1200)
