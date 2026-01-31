@@ -28,3 +28,7 @@ Did ques of Minimum Absolute Difference(LC-1200)
 ## 30-01-2026
 
 Did ques of Restore IP Address(LC-93)
+
+## 31-01-2026
+
+Did ques of Find smallerst letter greater than the target(LC-744)
