@@ -20,7 +20,7 @@ public class StackQuestions{
 
 
     
-        // 42. Balanced Parentheses using Stack **********************************************************************
+        // 42. Check if a given expression has Balanced Parentheses using Stack **********************************************************************
 
         String expr = "{[()]}";
 
@@ -29,11 +29,11 @@ public class StackQuestions{
 
         for (char c : expr.toCharArray()) {
 
-            // Opening brackets push
+            // Opening brackets push----------------
             if (c == '{' || c == '[' || c == '(') {
                 st.push(c);
             }
-            // Closing brackets
+            // Closing brackets---------------------
             else {
                 if (st.isEmpty()) {
                     balanced = false; break;
@@ -73,10 +73,10 @@ public class StackQuestions{
 
         String infix = "A+B*C";
 
-        Stack<Character> op = new Stack<>();
-        StringBuilder postfix = new StringBuilder();
+        Stack<Character> op = new Stack<>();  // stack bnaya
+        StringBuilder postfix = new StringBuilder();  // final output bnane ke kaam ayega
 
-        Map<Character, Integer> prec = new HashMap<>();
+        Map<Character, Integer> prec = new HashMap<>();   // precednece map -> kaunse operator ki priority kitni
         prec.put('+', 1);
         prec.put('-', 1);
         prec.put('*', 2);
@@ -131,8 +131,7 @@ public class StackQuestions{
 
 
     
-        // 46. Implement stack supporting getMin() in O(1) (Already done above, same logic)
-        // **********************************************************************
+        // 46. Implement stack supporting getMin() in O(1) (Already done above, same logic)  **********************************************************************
 
         System.out.println("Q46 getMin() again = " + ms.getMin());
 

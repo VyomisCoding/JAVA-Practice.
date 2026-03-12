@@ -6,6 +6,7 @@ public class TrailUtil {
     
     // getters & Setters
     public List<Trail> getTrailList() { return trailList; }
+    
     public void setTrailList(List<Trail> trailList) { this.trailList = trailList; }
 
     // 1 Add Trail 

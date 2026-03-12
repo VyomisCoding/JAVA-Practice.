@@ -9,8 +9,6 @@ public class Q16 {
 
         int searchId = 103;
 
-        System.out.println(productIds.contains(searchId)
-                ? "ID Found"
-                : "ID Not Found");
+        System.out.println(productIds.contains(searchId) ? "ID Found" : "ID Not Found");
     }
 }
