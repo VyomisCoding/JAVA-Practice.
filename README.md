@@ -31,26 +31,21 @@ Did ques of Minimum Absolute Difference(LC-1200);
 Did ques of Restore IP Address(LC-93);
 
 ## 31-01-2026
-
 Did ques of Find smallerst letter greater than the target(LC-744);
 
 ## 01-02-2026
-
 Did ques of Divide an array into subarrays with minimum cost(LC-3010);
 
 
 
 ## 02-02-2026
-
 Did ques of Combinations(LC-77);
 
 
 ## 22-02-2026
-
 Did questions pdfs shared by mentor.
 And practiced some ques by myself
 
-## _________________________________________________________________________________
 
 
 
