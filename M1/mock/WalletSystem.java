@@ -1,4 +1,4 @@
-package mock;
+//package mock;
 
 import java.util.*;
 
@@ -127,19 +127,15 @@ class WalletSystem {
     }
 
     // HOLDER SUMMARY
-    public void holderSummary(String name) {
+    public void holderSummary(String name){
         List<Wallet> list = new ArrayList<>();
-
         for (Wallet w : walletMap.values()) {
             if (w.holderName.equals(name)) {
                 list.add(w);
             }
         }
-
         list.sort(Comparator.comparing(w -> w.walletId));
-
         double total = 0;
-
         for (Wallet w : list) {
             System.out.println("Wallet: " + w.walletId + " Balances: " + w.balances);
 
@@ -147,7 +143,6 @@ class WalletSystem {
                 total += bal;
             }
         }
-
         System.out.println("Total Balance: " + total);
     }
 }
